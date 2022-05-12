@@ -10,7 +10,7 @@
     "noUnusedLocals": true,
     "skipLibCheck": true,
     "sourceMap": true,
-    "outDir": "./dist"
+    "outDir": "./app"
   },
   "include": ["./src/**/*.ts"],
   "exclude": ["node_modules"]

@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "tsc & node .",
-    "dev": "nodemon -e ts -w . -x ts-node ./index",
+    "dev": "nodemon -e ts -w . -x ts-node ./app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -30,6 +30,7 @@
     "@trpc/server": "^9.23.2",
     "cors": "^2.8.5",
     "express": "^4.18.1",
+    "serverless-http": "^3.0.1",
     "superjson": "^1.9.1",
     "ts-node": "^10.7.0"
   }

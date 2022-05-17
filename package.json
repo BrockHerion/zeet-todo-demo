@@ -4,7 +4,8 @@
   "description": "A simple to-do app deployed to an AWS Lambda using Zeet",
   "private": true,
   "scripts": {
-    "start": "ts-node ./app.ts",
+		"build": "tsc",
+    "start": "node ./build/app.js",
     "dev": "nodemon -e ts -w . -x ts-node ./app.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -9,12 +9,11 @@
     "experimentalDecorators": true,
     "noUnusedLocals": true,
     "skipLibCheck": true,
-    "sourceMap": true,
-    "outDir": "./dist",
+    "outDir": "./build",
     "watch": false,
     "noImplicitAny": true,
     "baseUrl": "."
   },
-  "include": ["./**/*.ts", "app.ts"],
+  "include": ["./src/**/*.ts"],
   "exclude": ["node_modules"]
 }
